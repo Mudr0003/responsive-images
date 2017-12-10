@@ -1,0 +1,49 @@
+ul {
+    list-style: none;
+}
+
+img {
+    max-width:90%; 
+    border-radius: 50%;
+    margin:10px;
+    transition: transform 0.75s ease-in-out;
+}
+img:hover{
+  transform:scale(1.2);  
+    
+}
+
+li { width: 100%;
+     float:left;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+.imagebox {background-color: aqua;
+border-radius: 50%;
+border-style: solid;
+margin:5px;}
+
+.imagebox:hover {
+    background-color: orange; 
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    
+    
+}
+
+@media screen and (min-width: 600px){
+	/* two columns */
+	li{
+		width: 50%; 
+	}
+}
+
+@media screen and (min-width: 1200px){
+	/* four columns */
+	li{
+		width: 25%; 
+	}
+}
+
+
